@@ -15,6 +15,8 @@
 // ctx.fillStyle = "white";
 // ctx.fillRect(225, 225, 50, 50);
 
+import * as THREE from 'https://unpkg.com/three@0.160.0/build/three.module.js';
+
 
 let scene = new THREE.Scene();
 
@@ -54,3 +56,4 @@ function animate() {
     renderer.render(scene, camera);
 }
 animate();
+
